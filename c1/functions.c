@@ -9,18 +9,19 @@ int larger(int a, int b)
 }
 
 //function void example
-void greet(){
-    puts ("Hello mr Smith");
+void greet()
+{
+    puts("Hello mr Smith");
 }
 
 //function chaining assignments
-int chain_values(int c,int d, int e){
+int chain_values(int c, int d, int e)
+{
     c = 2;
     d = c = 4;
     e = 3;
 
-
-    return c + d + e ;
+    return c + d + e;
 }
 int main()
 {
@@ -28,7 +29,7 @@ int main()
     int greatest = larger(79, 86);
     printf("%i is the greatest!\n", greatest);
     greet();
-    int modify_3_values = chain_values(0,0,0);
+    int modify_3_values = chain_values(0, 0, 0);
     printf("total is: %i\n", modify_3_values);
     return 0;
 }
