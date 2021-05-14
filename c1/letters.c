@@ -1,25 +1,25 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
-char suit = 'H';
+	char suit = 'H';
 
-switch(suit) {
+	switch (suit)
+	{
 
-case 'C':
-	puts("Clubs");
-	break;
-case 'D':
-	puts("Diamonds");
-	break;
-case 'H':
-	puts("Hearts");
-	break;
-default:
-	puts("Spades");
+	case 'C':
+		puts("Clubs");
+		break;
+	case 'D':
+		puts("Diamonds");
+		break;
+	case 'H':
+		puts("Hearts");
+		break;
+	default:
+		puts("Spades");
+	}
 
-
-}
-
-return 0;
+	return 0;
 }

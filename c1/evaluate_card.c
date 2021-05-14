@@ -31,18 +31,19 @@ int main()
     }
 */
 
-    switch(card_name[0]){
+    switch (card_name[0])
+    {
 
-        case 'K':
-        case 'Q':
-        case 'J':
-            val = 10;
-            break;
-        case 'A':
-            val=11;
-            break;
-        default:
-            val = atoi(card_name);
+    case 'K':
+    case 'Q':
+    case 'J':
+        val = 10;
+        break;
+    case 'A':
+        val = 11;
+        break;
+    default:
+        val = atoi(card_name);
     }
     printf("The card value is : %i\n", val);
     if ((val > 2) && (val < 7))
