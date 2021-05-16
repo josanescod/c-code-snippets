@@ -5,8 +5,6 @@ globals -> variables outside functions
 constants
 code
 
-
-
 -get the address variable
 get the address variable printf("x lives at %p\n", &x);
 -store the address variable
